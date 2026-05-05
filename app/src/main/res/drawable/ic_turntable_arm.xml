@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Đế tròn -->
+    <item
+        android:left="6dp"
+        android:top="6dp">
+        <shape android:shape="oval">
+            <size
+                android:width="24dp"
+                android:height="24dp" />
+            <solid android:color="#E7E7EE" />
+            <stroke
+                android:width="1dp"
+                android:color="#66000000" />
+        </shape>
+    </item>
+
+    <!-- Vòng trong của đế -->
+    <item
+        android:left="12dp"
+        android:top="12dp">
+        <shape android:shape="oval">
+            <size
+                android:width="12dp"
+                android:height="12dp" />
+            <solid android:color="#BFC2CE" />
+        </shape>
+    </item>
+
+    <!-- Cần tay kim chính -->
+    <item
+        android:left="24dp"
+        android:top="18dp">
+        <rotate android:fromDegrees="32" android:toDegrees="32">
+            <shape android:shape="rectangle">
+                <size
+                    android:width="88dp"
+                    android:height="5dp" />
+                <corners android:radius="3dp" />
+                <gradient
+                    android:angle="0"
+                    android:startColor="#F3F3F8"
+                    android:centerColor="#D7D9E3"
+                    android:endColor="#AEB2C0" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- Khớp nối nhỏ -->
+    <item
+        android:left="70dp"
+        android:top="52dp">
+        <rotate android:fromDegrees="32" android:toDegrees="32">
+            <shape android:shape="rectangle">
+                <size
+                    android:width="26dp"
+                    android:height="4dp" />
+                <corners android:radius="2dp" />
+                <solid android:color="#B5B8C5" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- Đầu kim -->
+    <item
+        android:left="92dp"
+        android:top="68dp">
+        <rotate android:fromDegrees="32" android:toDegrees="32">
+            <shape android:shape="rectangle">
+                <size
+                    android:width="16dp"
+                    android:height="6dp" />
+                <corners android:radius="2dp" />
+                <solid android:color="#8B90A3" />
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>

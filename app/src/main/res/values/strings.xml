@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Music app</string>
+    <string name="get_started">Get Started</string>
+    <string name="explorer_artist">Explore Music</string>
+    <string name="title">title</string>
+    <string name="artist">artist</string>
+    <string name="search_song_hint">Tìm bài hát hoặc ca sĩ...</string>
+    <string name="all_categories">Tất cả</string>
+
+
+</resources>
